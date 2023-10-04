@@ -22,37 +22,44 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
-
-
+```
+create table student (rollno numeric(10),name char(10),age numeric(5),address varchar(25),phoneno numeric(15));
+```
 ### OUTPUT:
+![1](https://github.com/Divya110205/G2_DBMS/assets/119404855/191b59d6-f02a-4bd5-8265-ffedd74c6bac)
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-
+```
+alter table student add department varchar(15);
+```
 ### OUTPUT:
-
+![2](https://github.com/Divya110205/G2_DBMS/assets/119404855/6489175b-8d57-47b1-9cda-b30ea6707958)
 
 ### 3) Drop the student table
  
-### SQL QUERY: 
-
-
+### SQL QUERY:
+```
+drop table student;
+```
 ### OUTPUT:
-
+![3](https://github.com/Divya110205/G2_DBMS/assets/119404855/811cefb1-61b4-4686-98c2-a769575fc617)
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-
-
+```
+truncate table student;
+```
 ### OUTPUT:
-
-
+![4](https://github.com/Divya110205/G2_DBMS/assets/119404855/d531b49c-230d-4233-804d-7022316880e3)
 
 ### 5) Rename the student table to mystudent
 
-### SQL QUERY: 
-
-
+### SQL QUERY:
+```
+rename table student to mysudent;
+```
 ### OUTPUT:
+![5](https://github.com/Divya110205/G2_DBMS/assets/119404855/e1dd2d71-fa17-47d8-a546-e85999b1a75d)
